@@ -55,7 +55,7 @@
         "infection/extension-installer": "^0.1.0",
         "infection/include-interceptor": "^0.2.5",
         "infection/mutator": "^0.4",
-        "justinrainbow/json-schema": "^5.2.10",
+        "justinrainbow/json-schema": "6.0.0-beta",
         "nikic/php-parser": "^5.0",
         "ondram/ci-detector": "^4.1.0",
         "sanmai/later": "^0.1.1",
@@ -76,7 +76,7 @@
     "require-dev": {
         "ext-simplexml": "*",
         "fidry/makefile": "^1.0",
-        "helmich/phpunit-json-assert": "^3.0",
+        "helmich/phpunit-json-assert": "dev-Update-json-schema-v6-beta",
         "phpstan/extension-installer": "^1.1.0",
         "phpstan/phpstan": "^1.10.15",
         "phpstan/phpstan-phpunit": "^1.0.0",
@@ -120,5 +120,11 @@
     ],
     "support": {
         "issues": "https://github.com/infection/infection/issues"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DannyvdSluijs/phpunit-json-assert"
+        }
+    ]
 }
